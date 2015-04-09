@@ -1,0 +1,48 @@
+{
+  "file": [
+    {"titles":[
+      {"title": "Projects"},
+      {"title1":"Java"},
+      {"title2":"WEB"},
+      {"title3":"Gestion de Projet"}
+    ]},
+    {
+      "Projects": [
+        {
+          "info": [
+            {
+              "Java": [
+                {
+                  "ogl": "During the second semester of the third year of my graduation, i colaborated in the team CASINO to the development of the project Ogl. Where.... "
+                },
+                {
+                  "2048": "during the fever of the world's must addictive game 2048, we had to do your very personal 2048 game. This project happened during my second year in the preparatory school"
+                },
+                {
+                  "endOfTermProject": "This project was done during one full week at the end of the first semester of my third year. IN this project...."
+                },
+                {
+                  "football": "In the begining of the term, we had to simulate a world cup handling players goals so they could be shown at the end of the tournament"
+                }
+              ]
+            },
+            {
+              "JavaScript": [
+                {
+                  "E-Swap": "I colaborated with Mazen Anastas to the creation of a e-commerce web site. It has been done for the Introduction to the Internet during our second year o preparatory school"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gestionDeProjet": [
+            {
+              "Survey in the It departement": "le texte ici"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
