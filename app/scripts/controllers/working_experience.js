@@ -22,6 +22,7 @@ angular.module('showcaseApp')
         $scope.title = work.title;
         $scope.title1 = work.title1;
         $scope.internships = work.internships;
+
       });
 
 

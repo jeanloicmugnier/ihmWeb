@@ -1,3 +1,15 @@
-<h1  >{{title}}</h1>
-<p>{{text}}</p>
-<p>Contact: <a href="mailto:mugnier@polytech.unice.fr" target="_top">{{email}}</a></p>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="styles/personal.css">
+    <link rel="stylesheet" type="text/css" href="styles/all.css">
+</head>
+<div class="title">
+    <h1  >{{title}}</h1><div class = "img"> <img ng-src="images/{{title}}.png"/> </div></div>
+<p>{{text}}
+</p>
+<p>Contact: <a href="mailto:{{email}}" target="_top">{{email}}</a></p>
+<footer>
+    <input type="image" src="images/facebook.jpg" />
+    <input type="image" src="images/linkedin.jpg" />
+    <input type="image" src="images/twitter.jpg" />
+</footer>

@@ -1,0 +1,10 @@
+img{
+    height: 50px ;
+
+}
+.block{
+    padding: 10px;
+}
+div.title{
+    display:inherit;
+}

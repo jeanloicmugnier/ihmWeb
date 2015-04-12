@@ -1,12 +1,25 @@
+<head>
+
+    <link rel="stylesheet" type="text/css" href="styles/all.css">
+
+    <link rel="stylesheet" type="text/css" href="styles/all.css">
+</head>
 <h1>{{title}}</h1>
 <h2>{{title1}}</h2>
 <div ng-repeat="item in internships ">
 <div ng-repeat="(name,text) in item">
-  <h3>
+  <div class="tit"><h3>
   {{name}}
+
   </h3>
-  <p>
+    <div class = "img">
+        <img ng-src="images/{{name}}.png"/>
+    </div>
+  </div>
+  <div>
 {{text}}
-  </p>
+
+
+    </div>
 </div>
 </div>

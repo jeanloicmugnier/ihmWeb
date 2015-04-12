@@ -1,17 +1,28 @@
-<h1>{{title}}</h1>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="styles/all.css">
+    <link rel="stylesheet" type="text/css" href="styles/hobbies.css">
+</head><h1>{{title}}</h1>
 <h2>Sports</h2>
-  <div id="sports" ng-repeat="(name,text) in nameSports">
+  <div class="sports" ng-repeat="(name,text) in nameSports">
     <h3>
       {{name}}
     </h3>
     <p>
       {{text}}
+        <div class="img">
+            <img ng-src="images/{{name}}.png"/>
+        </div >
     </p>
   </div>
 <h2>Travels</h2>
-  <div id ="travel">
+  <div class ="travel">
       <ul ng-repeat="countrie in countries">
         <li>{{countrie}}</li>
       </ul>
   </div>
-
+<footer>
+    <input type="image" src="images/facebook.jpg" />
+    <input type="image" src="images/linkedin.jpg" />
+    <input type="image" src="images/twitter.jpg" />
+</footer>

@@ -17,11 +17,11 @@ angular.module('showcaseApp')
       'AngularJS',
       'Karma'
     ];
-    $http.get('data/studies.json')
-      .success(function(studies) {
-        $scope.title = studies.title;
-        $scope.names = studies.namelist;
-      });
+        $http.get('data/studies.json')
+          .success(function(studies) {
+            $scope.title = studies.title;
+            $scope.names = studies.namelist;
+          });
 
 
 
